@@ -15,9 +15,9 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## 📊 At a Glance
 
-| Tools | Categories | Contributors | GitHub views (last 2 months) |
+| Tools | Categories | Contributors | GitHub views (Sep-Oct) |
 |---|---|---|---|
-| 67 (+4 since last update) | 8 | 29 (+4 since last update) | 1,059 |
+| 72 (+5 since last update) | 8 | 34 (+5 since last update) | 1,059 |
 
 *Updated every other Sunday.*
 
@@ -25,11 +25,11 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 | Category | What it covers | Tools |
 |---|---|---|
-| [🌐 Cross-Platform Odds Aggregators](#cross-platform-odds-aggregators) | compare odds and volume across platforms at once. | 5 |
-| [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 6 |
+| [🌐 Cross-Platform Odds Aggregators](#cross-platform-odds-aggregators) | compare odds and volume across platforms at once. | 7 |
+| [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 7 |
 | [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 12 |
 | [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 3 |
-| [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 15 |
+| [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 16 |
 | [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 7 |
 | [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 16 |
 | [💸 Leverage, Lending & Yield](#leverage-lending--yield) | borrow against, lever up, or earn yield on positions. | 2 |
@@ -41,10 +41,10 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## 🌐 Cross-Platform Odds Aggregators
 
-- **[Predxy](https://predxy.com/)**: Market index for what happens next: think CoinMarketCap for prediction markets with a newsroom's sense of what matters. 15 venues already aggregated, including Polymarket, Kalshi, and Hyperliquid.
+- **[Predxy](https://predxy.com/)**: Index that matches the same question across 15 venues, including Polymarket and Kalshi, and combines them into one volume-weighted probability.
   - **Best for:** finding the odds on a question without searching every venue.
   - **Team:** not publicly listed.
-  - **Pricing:** see https://predxy.com/developers.
+  - **Pricing:** free to browse; API pricing not yet published ([developers](https://predxy.com/developers)).
   - **Phase:** live.
   - **Added:** Nov 2026 · **Reviewed:** Nov 2026
 
@@ -89,7 +89,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
 - **[pdata](https://pdata.world/)**: Read-only aggregator of live odds, 24h volume and price history from 8 venues (Polymarket, Kalshi, Manifold, Myriad, Limitless, Predict, Opinion, Gemini) in one schema, with similar questions on other venues linked.
-  Free REST API, MCP server, nightly bulk files and read-only Postgres, no key or account. Cross-venue links are made automatically and can pair different questions.
+  Free REST API, MCP server, nightly bulk files and read-only Postgres, no key or account. Cross-venue links are made automatically and can pair different questions. Price history is deleted 10 days after a market closes.
   - **Best for:** reading odds from eight venues through one schema, without writing a client per venue.
   - **Team:** not publicly listed.
   - **Pricing:** free, no key or signup; fair use up to 50 requests a second per IP. Data under CC BY 4.0.
@@ -152,11 +152,11 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live (v0.1.0).
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
-- **[Windmill](https://windmill.markets/)**: Hosted builder that turns a plain-English strategy into an AI agent trading Kalshi on a schedule, on paper or live with your own Kalshi API key.
+- **[Windmill](https://windmill.markets/)**: Hosted builder that turns a plain-English strategy into an AI agent trading Kalshi on a schedule, on paper or live by connecting your Kalshi account.
   Paper orders fill against Kalshi's live order books with Kalshi's fees; its own [published paper tests](https://windmill.markets/research/kalshi-90-strategies) (90 strategies, 4,200 settled bets) found no lasting edge.
   - **Best for:** testing a Kalshi rule on paper before putting money on it.
   - **Team:** not publicly listed.
-  - **Pricing:** free on paper, no card; [Pro $20/mo](https://windmill.markets/pricing).
+  - **Pricing:** free tier (paper and live, limited daily runs); [Pro $20/mo](https://windmill.markets/pricing).
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
@@ -169,10 +169,10 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 ## ⚡ Trading Terminals & Execution
 
 - **[EVDESK](https://evdesk.ai/)**: Trading desk for Kalshi: every open market, the full order book, the fee on both routes (take now or rest a limit order), Kelly sizing, and order placement on Kalshi from your own account.
-  Also runs free Kalshi tools with no sign-up: a [fee calculator](https://evdesk.ai/tools/kalshi-fee-calculator), an [odds converter](https://evdesk.ai/tools/kalshi-odds-converter) that shows the after-fee break-even, and a [Kelly and EV calculator](https://evdesk.ai/tools/kelly-ev-calculator).
+  Also runs free Kalshi tools: a [fee calculator](https://evdesk.ai/tools/kalshi-fee-calculator), an [odds converter](https://evdesk.ai/tools/kalshi-odds-converter) that shows the after-fee break-even, and a [Kelly and EV calculator](https://evdesk.ai/tools/kelly-ev-calculator).
   - **Best for:** Kalshi traders who want book depth, the exact fee and position sizing on one screen before they place an order.
-  - **Team:** EV DESK LLC; individuals not publicly listed.
-  - **Pricing:** tools free; desk $149/mo with three days free, or $199/mo with more AI analyst credits.
+  - **Team:** EVDESK LLC (New Mexico); individuals not publicly listed.
+  - **Pricing:** tools free; desk from $149/mo after a three-day trial.
   - **Phase:** live.
   - **Added:** Nov 2026 · **Reviewed:** Nov 2026
 
@@ -424,7 +424,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   Paid AI Lab backtests and paper-trades copy strategies (simulated; nothing places orders). Read-only; REST API and MCP server.
   - **Best for:** checking whether a wallet's record reflects forecasting skill or luck.
   - **Team:** DefiScout LLC (per polyrank.app/tos).
-  - **Pricing:** free lookup and top-100 board; paid from $45/month ([pricing](https://polyrank.app/pricing)).
+  - **Pricing:** free lookup and top-100 board; paid tiers from $45/month ([pricing](https://polyrank.app/pricing)).
   - **Phase:** live.
   - **Added:** Nov 2026 · **Reviewed:** Nov 2026
 
