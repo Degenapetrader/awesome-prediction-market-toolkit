@@ -506,6 +506,13 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
+- **[pmfees](https://github.com/swaphunt/pmfees)**: Python library and CLI that computes trading fees and break-even prices for Kalshi and Polymarket, sourced from official fee schedules (some fee types not yet covered).
+  - **Best for:** checking the fee and break-even move on a trade, or using dated fee constants in code.
+  - **Team:** SwapHunt.
+  - **Pricing:** free, open source (MIT).
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
+
 - **[Poly Helper](https://polyhelper.io/)**: Free Chrome/Brave extension embedding 18+ contextual data panels directly into the Polymarket interface.
   Crypto prices, sports scores, macro data, whale tracking, and news, all in-context.
   - **Best for:** researching without leaving the Polymarket tab.
