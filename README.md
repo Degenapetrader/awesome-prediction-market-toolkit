@@ -19,7 +19,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 |---|---|---|---|
 | 72 (+5 since last update) | 8 | 34 (+5 since last update) | 1,059 |
 
-*Updated every other Sunday.*
+*Updated on the 1st and 15th of every month.*
 
 ## Contents
 
