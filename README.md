@@ -17,7 +17,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 | Tools | Categories | Contributors | GitHub views (Sep-Oct) |
 |---|---|---|---|
-| 72 (+5 since last update) | 8 | 34 (+5 since last update) | 1,059 |
+| 73 (+6 since last update) | 8 | 35 (+6 since last update) | 1,059 |
 
 *Updated on the 1st and 15th of every month.*
 
@@ -31,7 +31,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 | [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 3 |
 | [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 16 |
 | [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 7 |
-| [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 16 |
+| [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 17 |
 | [💸 Leverage, Lending & Yield](#leverage-lending--yield) | borrow against, lever up, or earn yield on positions. | 2 |
 | [☠️ No Longer Maintained](#no-longer-maintained) | tools that used to be here, now dead or abandoned. | 2 |
 
