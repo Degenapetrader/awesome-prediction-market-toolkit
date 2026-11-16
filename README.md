@@ -17,7 +17,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 | Tools | Categories | Contributors | GitHub views (Sep-Oct) |
 |---|---|---|---|
-| 73 (+6 since last update) | 8 | 35 (+6 since last update) | 1,059 |
+| 76 (+9 since last update) | 8 | 37 (+8 since last update) | 1,059 |
 
 *Updated on the 1st and 15th of every month.*
 
@@ -28,10 +28,10 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 | [🌐 Cross-Platform Odds Aggregators](#cross-platform-odds-aggregators) | compare odds and volume across platforms at once. | 7 |
 | [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 7 |
 | [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 12 |
-| [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 3 |
+| [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 4 |
 | [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 16 |
-| [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 7 |
-| [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 17 |
+| [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 8 |
+| [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 18 |
 | [💸 Leverage, Lending & Yield](#leverage-lending--yield) | borrow against, lever up, or earn yield on positions. | 2 |
 | [☠️ No Longer Maintained](#no-longer-maintained) | tools that used to be here, now dead or abandoned. | 2 |
 
@@ -498,6 +498,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Pricing:** free.
   - **Phase:** live.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
+
+- **[Anveric](https://anveric.com/)**: Windows app for monitoring Kalshi positions and combo legs, with alerts, phone companions and optional armed exit plans (including whole-combo RFQ sells).
+  API keys stay on your desktop, which must stay on and online. Places real sell orders only under plans you arm.
+  - **Best for:** watching existing Kalshi holdings and setting exits in advance.
+  - **Team:** [Anveric LLC](https://anveric.com/about).
+  - **Pricing:** free public beta until Dec 9, 2026; beta users keep a free lifetime license.
+  - **Phase:** public beta.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
 
 [↑ Back to top](#top)
 
