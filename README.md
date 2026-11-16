@@ -614,6 +614,13 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
+- **[PaperMantis](https://papermantis.app/)**: Backtesting and paper trading sandbox for Polymarket’s 5- and 15-minute BTC, ETH and SOL Up/Down markets only. Test rules on recorded data and track compatible strategies with virtual money.
+  - **Best for:** checking whether a rule still holds up on new markets after a historical backtest.
+  - **Team:** [Vitalii Stepanenko](https://papermantis.app/about/), solo founder.
+  - **Pricing:** free (free account required).
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
+
 - **[Glypse](https://glypse.ai/)**: Market screener and event research for prediction markets, with briefings, social sentiment analysis, and a custom-pair arbitrage scanner. Free to use without an account.
   - **Best for:** researching the events and social sentiment behind prediction market prices.
   - **Team:** Glypse, Inc., founded by Doruk Senkal.
